@@ -1,0 +1,27 @@
+/* Pseudo-elements -------------------------------- */
+
+ /* pseudo classes use :: or : to differnentiate between
+  pseudo classes and psuedo elements
+  broswers render both the same so it really doesnt matter
+*/
+
+/* always selects the first line in the broswer.
+  #magic
+*/
+
+.intro::first-line {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.intro::first-letter {
+  float: left;
+  font-size: 80px;
+  color: white;
+  padding: 5px 10px;
+  background: #3804b7;
+  margin: 10px 10px 0 0;
+  border-radius: 5px;
+  line-height: 1;
+
+}

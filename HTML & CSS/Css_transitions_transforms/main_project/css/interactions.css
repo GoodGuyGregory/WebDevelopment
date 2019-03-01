@@ -1,0 +1,53 @@
+/* =================================
+  Button Transitions
+==================================== */
+
+.button {
+	color: #4a89ca;
+	border: 2px solid;
+
+	/* set duratino of transitions on element selectors */
+	/*  duration times can be seconds "5s"
+			durartion times can also be miliseconds 0.5s or 500ms*/
+
+	/*  Allows which CSS property you want to transition*/
+	/*  defaults to all. all can cause rendering issues in browsers*/
+	transition-property: background, border-radius, color;
+	transition-duration: 0.4s, .8s;
+}
+
+/*  Changes color to red on hover*/
+/*  CSS Transition properties:
+		-transition-property
+		-transition-duration
+		-transition-timing-function
+		-transition-delay
+*/
+
+.button:hover {
+	color: #fff;
+	background: #4a89ca;
+	border-radius: 1em;
+}
+
+.button:active {
+	/*  changes when clicked*/
+	background: #a33830;
+}
+
+
+/* =================================
+  Photo Overlay Transitions
+==================================== */
+
+.photo-overlay {
+	/*  Set the initial state before transition*/
+	opacity: 0;
+	transition-property:  opacity;
+	transition-duration: .4s;
+}
+
+.photo-overlay:hover {
+	/*transition state on hover*/
+	opacity: 1;
+}

@@ -1,0 +1,125 @@
+Gregs-Mac-mini:enfold-child lougeek$ ping lougeek.ninja
+PING lougeek.ninja (172.24.30.200): 56 data bytes
+64 bytes from 172.24.30.200: icmp_seq=0 ttl=64 time=43.217 ms
+64 bytes from 172.24.30.200: icmp_seq=1 ttl=64 time=0.763 ms
+64 bytes from 172.24.30.200: icmp_seq=2 ttl=64 time=0.670 ms
+64 bytes from 172.24.30.200: icmp_seq=3 ttl=64 time=0.744 ms
+64 bytes from 172.24.30.200: icmp_seq=4 ttl=64 time=0.735 ms
+64 bytes from 172.24.30.200: icmp_seq=5 ttl=64 time=0.718 ms
+64 bytes from 172.24.30.200: icmp_seq=6 ttl=64 time=0.606 ms
+^C
+--- lougeek.ninja ping statistics ---
+7 packets transmitted, 7 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.606/6.779/43.217/14.876 ms
+Gregs-Mac-mini:enfold-child lougeek$
+Gregs-Mac-mini:enfold-child lougeek$ ssh root@172.24.30.200
+The authenticity of host '172.24.30.200 (172.24.30.200)' can't be established.
+ECDSA key fingerprint is SHA256:xg/Zs9I44GuVBbsV4bMzn/ZGQ8fKhciaeWbw4SkmDE4.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '172.24.30.200' (ECDSA) to the list of known hosts.
+root@172.24.30.200's password:
+Last login: Fri Sep 14 08:50:44 2018 from 172.24.1.14
+[root@lougeek ~]# htop
+[root@lougeek ~]# cd /var/www/
+[root@lougeek www]# ls -alh
+total 3.4G
+drwxr-xr-x.  4 apache apache   46 Sep 14 08:54 .
+drwxr-xr-x. 20 root   root   4.0K Jul 27 11:34 ..
+drwxr-xr-x.  2 apache apache    6 Jul 18  2016 cgi-bin
+drwxr-xr-x.  7 apache apache 4.0K Sep 25 08:21 html
+-rw-r--r--.  1 root   root   3.4G Sep 14 08:54 html.zip
+[root@lougeek www]# cd html
+[root@lougeek html]# ls -alh
+total 224K
+drwxr-xr-x.  7 apache apache 4.0K Sep 25 08:21 .
+drwxr-xr-x.  4 apache apache   46 Sep 14 08:54 ..
+drwxr-xr-x.  2 apache apache    6 May 24  2016 cgi-bin
+-rw-rw-r--.  1 apache apache  235 Nov 29  2016 .htaccess
+-rw-rw-r--.  1 apache apache  418 Jan  5  2016 index.php
+-rw-rw-r--.  1 apache apache   15 Nov  5  2015 info1.html
+-rw-rw-r--.  1 apache apache   19 Nov  5  2015 info.php
+drwxr-xr-x.  7 apache apache 4.0K Jan  5  2016 kint
+-rw-rw-r--.  1 apache apache  20K Jan 17  2018 license.txt
+-rw-rw-r--.  1 apache apache 7.3K Aug  2 19:43 readme.html
+-rw-rw-r--.  1 apache apache   88 Nov 29  2016 test2.php
+-rw-rw-r--.  1 apache apache   88 Oct 19  2015 test.php
+-rw-rw-r--.  1 apache apache 5.4K May 21 08:17 wp-activate.php
+drwxr-xr-x. 10 apache apache 4.0K Nov 16  2017 wp-admin
+-rw-rw-r--.  1 apache apache  364 May 24  2016 wp-blog-header.php
+-rw-rw-r--.  1 apache apache 1.9K May 21 08:17 wp-comments-post.php
+-rw-rw-r--.  1 apache apache 3.1K Sep  7 08:49 wp-config.php
+-rw-rw-r--.  1 apache apache 2.8K Jan  6  2016 wp-config-sample.php
+drwxr-xr-x. 10 apache apache 4.0K Sep  7 08:49 wp-content
+-rw-rw-r--.  1 apache apache 3.6K Nov 16  2017 wp-cron.php
+drwxr-xr-x. 18 apache apache 8.0K Nov 16  2017 wp-includes
+-rw-rw-r--.  1 apache apache 2.4K Dec 20  2016 wp-links-opml.php
+-rw-rw-r--.  1 apache apache 3.3K Nov 16  2017 wp-load.php
+-rw-rw-r--.  1 apache apache  37K Aug  2 19:43 wp-login.php
+-rw-rw-r--.  1 apache apache 7.9K Jan 11  2017 wp-mail.php
+-rw-rw-r--.  1 apache apache  16K Nov 16  2017 wp-settings.php
+-rw-rw-r--.  1 apache apache  30K May 21 08:17 wp-signup.php
+-rw-rw-r--.  1 apache apache 4.6K Nov 16  2017 wp-trackback.php
+-rw-rw-r--.  1 apache apache 3.0K Dec 20  2016 xmlrpc.php
+[root@lougeek html]# cd kint
+[root@lougeek kint]# ls -alh
+total 56K
+drwxr-xr-x. 7 apache apache 4.0K Jan  5  2016 .
+drwxr-xr-x. 7 apache apache 4.0K Sep 25 08:21 ..
+-rw-rw-r--. 1 apache apache  703 Sep 22  2015 composer.json
+-rw-rw-r--. 1 apache apache 3.2K Sep 22  2015 config.default.php
+drwxr-xr-x. 2 apache apache   37 Jan  5  2016 decorators
+drwxr-xr-x. 2 apache apache   25 Jan  5  2016 examples
+-rw-rw-r--. 1 apache apache   19 Sep 22  2015 .gitignore
+drwxr-xr-x. 2 apache apache   93 Jan  5  2016 inc
+-rw-rw-r--. 1 apache apache  23K Sep 22  2015 Kint.class.php
+-rw-rw-r--. 1 apache apache 1.1K Sep 22  2015 LICENCE
+drwxr-xr-x. 4 apache apache   33 Jan  5  2016 parsers
+-rw-rw-r--. 1 apache apache 6.8K Sep 22  2015 README.md
+drwxr-xr-x. 4 apache apache   64 Jan  5  2016 view
+[root@lougeek kint]# cd ../../
+[root@lougeek www]# ls -alh
+total 3.4G
+drwxr-xr-x.  4 apache apache   46 Sep 14 08:54 .
+drwxr-xr-x. 20 root   root   4.0K Jul 27 11:34 ..
+drwxr-xr-x.  2 apache apache    6 Jul 18  2016 cgi-bin
+drwxr-xr-x.  7 apache apache 4.0K Sep 25 08:21 html
+-rw-r--r--.  1 root   root   3.4G Sep 14 08:54 html.zip
+[root@lougeek www]# rm html.zip
+rm: remove regular file ‘html.zip’? y
+[root@lougeek www]# sudo su www-data
+[www-data@lougeek www]$ ls -alh
+total 8.0K
+drwxr-xr-x.  4 apache apache   31 Sep 25 10:57 .
+drwxr-xr-x. 20 root   root   4.0K Jul 27 11:34 ..
+drwxr-xr-x.  2 apache apache    6 Jul 18  2016 cgi-bin
+drwxr-xr-x.  7 apache apache 4.0K Sep 25 08:21 html
+[www-data@lougeek www]$ exit
+exit
+[root@lougeek www]# du -sh html
+3.6G	html
+[root@lougeek www]# du -sh html/wp-content/*
+0	html/wp-content/cjt-content
+4.0K	html/wp-content/index.php
+93M	html/wp-content/plugins
+0	html/wp-content/rsspi-log
+156M	html/wp-content/themes
+2.2G	html/wp-content/updraft
+0	html/wp-content/upgrade
+1.2G	html/wp-content/uploads
+24K	html/wp-content/w3tc-config
+[root@lougeek www]# tar -zcf html.tar.gz html --exclude='wp-content/updraft/*'
+[root@lougeek www]#
+[root@lougeek www]# less html/wp-config.php
+
+Find this in wp-config.php
+define('DB_NAME', 'lougeekweb');
+
+/** MySQL database username */
+define('DB_USER', 'lougeek');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'brav3Leaf82')
+[root@lougeek www]# mysqldump -u lougeek -p lougeekweb | gzip -9 > backupfile.sql.gz
+
+
+Now time to download the files

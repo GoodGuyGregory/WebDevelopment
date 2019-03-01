@@ -1,0 +1,8 @@
+body{
+  font-family: arial;
+}
+
+.main-img{
+  border: solid 4px black;
+  border-radius: 50%;
+}

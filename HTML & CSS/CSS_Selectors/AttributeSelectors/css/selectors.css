@@ -1,0 +1,158 @@
+/* Attribute Selectors ------------- */
+/*
+//styles the form contact class
+attaches styles to all of the form attributes
+*/
+
+/*
+form[class="form-contact"] {
+  padding: 20px, 24px;
+  background: #f4f7f8;
+}
+
+/*Styles the main container div
+div[id="container"] {
+  max-width: 500px;
+  margin: auto;
+}
+
+/*Attribute Selectors instead of classes and IDs usually best to use class or ID selectors instead of attribute selectors*/
+/*Complex attribute selectors can be a little more intense on the browser*/
+
+/*Usually better to use a class selector and an ID selector*/
+
+.form-contact {
+  padding: 20px, 24px;
+  background: #f4f7f8;
+}
+
+
+#container {
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type="email"] {
+  background: #fdfee6;
+}
+
+/*  attribute selector for all the buttons on the page
+    to display the pointer icon
+*/
+/* input[type="button"],
+input[type="reset"],
+input[type="submit"] { */
+
+
+/*  targets forgot password link below adds a 1px border
+with the new color
+*/
+a[target="_blank"] {
+  color: #39add1;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+/* adds border to the img elements with
+  the specific attribute of 'avatar'
+*/
+
+ /* img[title="avatar"] {
+	border-radius: 50%;
+  display: block;
+  margin-left: 20rem;
+} */
+
+input[type="submit"] {
+	background-color: #52bab3;
+
+}
+
+input[value="Login"],
+input[value="Submit"] {
+  color: #ffff;
+}
+
+/*  DRY Classes*/
+
+.br {
+  border-radius: .5em;
+}
+
+/*  Centers the avatar image class*/
+.avatar {
+  display: block;
+  margin: 0 auto 2em;
+}
+
+/* Now the Rounded class can be used on any image of choice
+  this reinforces the DRY techniques keeping styling simple
+  by simply adding an additional class of 'rounded' */
+.rounded {
+  border-radius: 50%;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  opacity: .75;
+}
+/*  Button classes for styling new elements*/
+
+.default {
+  background-color: #52bab3;
+}
+
+.error {
+  background-color: #ff784f;
+}
+
+/*  Medium veiwing devices*/
+@media (min-width: 769px ) {
+  .inln {
+    /*  adjusts to view ports with
+        inline styles and auto adjustsments for widths*/
+    width: auto;
+    display: inline-block;
+  }
+}
+
+/*  Combinators: > + ~  */
+/*===================================================  */
+
+/*
+
+The > combinator targets a direct child of an element
+The + combinator targets an element's immediate sibling
+The ~ combinator targets all the specified siblings that follow an element */
+
+/*  very specific selector Child Selector
+    targets direct children of a specific element*/
+form > a {
+  font-size: .7em;
+}
+
+/* + Adjacent Sibling selector: Targets next sibling
+  used to style buttons that follow other buttons
+
+  if two or more buttons are next to eachother the siblings
+  will utilize this styles
+*/
+
+.btn + .btn {
+  margin-left: 15px;
+}
+
+/*  ~General Sibling Combinators: targets every sibling that follows
+    tells all sibling label elements that follow the h1 element  */
+h1 ~ label {
+  background-color: #50b6a2;
+}

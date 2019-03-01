@@ -1,0 +1,24 @@
+/* UI element states pseudo-classes ------------ */
+
+input:focus,
+textarea:focus {
+  border-color: #52bab3;
+}
+
+/*  Most Common UI Element Selectors*/
+/*  Disabled*/
+/*  Enabled*/
+
+input:disabled {
+  background: #ddd;
+}
+
+/* uses an attribute selector to target
+  checkboxes and a pseudo state of checked
+  then a sibling selector
+  to style the label of these checkboxes */
+
+  /* VERY CoOl */
+input[type="checkbox"]:checked + label {
+  font-weight: bold;
+}

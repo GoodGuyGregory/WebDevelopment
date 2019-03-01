@@ -1,0 +1,42 @@
+/* :nth-child Pseudo-classes------------------ */
+
+/* passes values as arguments
+  Odd/Even
+  Integers can be used as well
+  */
+
+/* Wild Berry Pop-Tarts List */
+
+li:nth-child(even) {
+  background: #523ab3;
+  color: white;
+}
+
+li:nth-child(odd) {
+  background: #52bab3;
+  color: white;
+}
+
+/* Targets 4th text to look like
+  the tasty berry inside */
+li:nth-child(4) {
+  color: #b7312d;
+}
+
+/* an+b format
+  b = starting point of style here
+  a = the point where the styles should continue
+  here we see the 3rd item with this style
+  then a representing every 4th item after
+  if a or b < 1 can be ommitted &&
+  if a || b == same # ommit the same number DRY
+*/
+li:nth-child(4n+3) {
+  background: #b7312d;
+  color: #fff;
+}
+/*   */
+li:nth-child(-n+2) {
+  background: #52bab3;
+  color: #fff;
+}

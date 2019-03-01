@@ -1,0 +1,90 @@
+/* =================================
+  Photo Overlay Transitions
+==================================== */
+
+.photo-overlay {
+	opacity: 0;
+	transition: opacity .5s;
+}
+.photo-overlay:hover {
+	opacity: 1;
+}
+
+/* =================================
+  Button Transitions
+==================================== */
+
+.button {
+	transition: background .3s, color .3s;
+}
+.button:hover {
+	color: #fff;
+	background: #4a89ca;
+}
+
+/* =================================
+  Image Transforms & Transitions
+==================================== */
+.content {
+	/* transform: skewX(15deg); */
+}
+/* -- Row 1 --------- */
+img {
+	/*0-360 degrees 2D*/
+	/*  "-degs" rotate counter clockwise ect..*/
+	/* transform: rotate(25deg); */
+	transition: transform .5s;
+/*  origin is 50 50 by default
+ 		can also be coded as "top left " ect*/
+	/* transform-origin:  bottom right; */
+}
+
+img:hover {
+	/* transform: rotate(-360deg); */
+	/* transform: rotate(1turn); */
+	transform: scale(1.1) rotate(5deg) translateY(-20px);
+	 /* transform: skewX(-10deg); */
+  /* transform: skewY(15deg); */
+/*  scale can also take an x and y value */
+	/* transform: scale(1.2); */
+	/*  moves the image to another position*/
+	/*  translate also has x and y values for up and down*/
+	/* transform: translate(10%, 10%); */
+}
+
+/* -- Row 2 --------- */
+.photo img {
+	transform-origin:  0 0;
+}
+
+
+.photo:hover img {
+transform: scale(1.2);
+}
+
+
+/* -- Row 3 --------- */
+.slide .photo-overlay,
+.slide img {
+	transition: transform .6s ease-out;
+
+}
+
+/*  slides image back over the img element with 0*/
+.slide:hover .photo-overlay {
+	transform: translateX(0);
+}
+
+.slide .photo-overlay {
+	transform: translateX(-100%);
+}
+
+/*  effective when hovering over the image the old image will slide to the right and out of view*/
+.slide:hover img {
+	transform: translateX(100%);
+}
+
+/* -- Logo ---------- */
+.logo:hover {
+	transform: rotate(25deg);
+}

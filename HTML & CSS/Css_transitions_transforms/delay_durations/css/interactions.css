@@ -1,0 +1,56 @@
+/* =================================
+  Photo Overlay Transition
+==================================== */
+
+.photo-overlay {
+	opacity: 0;
+	/* transition-property: opacity;
+	transition-duration: .5s; */
+	/*  transition shorthand */
+	transition: opacity .5s;
+}
+.photo-overlay:hover {
+	opacity: 1;
+}
+
+
+/* =================================
+  Button Transitions
+==================================== */
+
+/*  Delay for multi-step processed*/
+
+.button {
+	opacity: 0;
+	/* transition-property: opacity, background, box-shadow;
+	transition-duration: .5S;
+	/* Just like duration we are able to add multiple transitions */
+	/* transition-delay: .766s, .5s 0s; */
+	/*  Transition shorthand conversion:*/
+	/*  values are important first value is transition duration and second value is delay*/
+	/*  timining elements  in between */
+	/*  transition: <value> <time duration> <function value> <delay duration>*/
+	transition: opacity .3s .2s, background .4s .3s, box-shadow .5s 0s;
+	transition-timing-function:  ease-out;
+}
+
+.button:hover {
+		background: rgba(74, 137, 282, 1);
+		box-shadow: 0 0 0 3px rgba(255, 255, 255, .7);
+}
+
+.photo-overlay:hover .button {
+	opacity: 1;
+}
+	.btn-icon {
+		/* transition-property: opacity, left;
+		transition-duration: .5s;
+		transition-delay: .3s;
+		transition-timing-function: ease-in-out, ease-out; */
+		transition: opacity .5s ease-in-out .3s, left .5s ease-out .3s;
+	}
+
+	.button:hover .btn-icon {
+		opacity: 1;
+		left: 80%;
+	}

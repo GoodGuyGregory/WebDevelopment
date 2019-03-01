@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Information</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <h1>Tables in HTML</h1>
+  <hr>
+  <!-- Create a Table Element -->
+  <!--  Tables have no Attributes: Now Deprecated -->
+  <!--  in the early 90s cross browser consistency was a styling nightmare before CSS
+        now it isnt a problem. With that in mind remember that the only time tables are used
+        now is in the instance of cellular, Tabular, spreadsheets data
+    -->
+    <!-- it is still common in Emails due to their rendering inconsistencies  -->
+  <table>
+    <!-- Captions are basically headers above the table really great for styling and SEO  -->
+    <caption>Employee Information</caption>
+    <!-- table head element: is not 100% needed
+      helps with SEO and styling in the case of the Css reference  -->
+    <thead>
+      <!-- table cells -->
+      <tr>
+        <!-- table headers -->
+        <th scope="col">Name</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Job Role</th>
+      </tr>
+    </thead>
+    <!-- tfoot should go between the thead and t body  -->
+    <tfoot>
+      <tr>
+        <!-- colspan spreads the reference size for each cell -->
+        <td colspan="3">Data is updated every 15 minutes</td>
+      </tr>
+    </tfoot>
+    <!-- tbody will wrap all of the tr rows below the head Element
+      same reasons as above for the head-->
+    <tbody>
+      <tr>
+        <!-- table data in each cell -->
+        <th scope="row">Greg Witt</th>
+        <td>greg@webdesign.com</td>
+        <td>Web Developer</td>
+      </tr>
+      <tr>
+        <th scope="row">Jordyn Wagner</th>
+        <td>Joe@webdesign.com</td>
+        <td>Web Designer</td>
+      </tr>
+      <tr>
+        <th scope="row">Zack Shovar</th>
+        <td>zack@webdesign.com</td>
+        <td>SEO Marketer</td>
+      </tr>
+      <tr>
+        <td scope="row">Jake Zirnheld</td>
+        <td>Jake@webdesign.com</td>
+        <td>Sales Design/Consultant</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>

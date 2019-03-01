@@ -1,0 +1,23 @@
+/* Structural Pseudo-classes------------------ */
+/*  Creates 1st Child Seleclector */
+
+li:first-child {
+  background: #52bab3;
+  color: #fff;
+}
+
+li:last-child {
+  background: #9932CC;
+  color: #fff;
+  border: none;
+}
+
+span:only-child {
+  color: #FF8c00;
+  font-size: 1.5em;
+}
+
+ /* Empty */
+li:empty {
+   background: Tomato;
+ }

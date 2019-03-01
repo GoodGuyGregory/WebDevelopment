@@ -1,0 +1,80 @@
+/* Base Styles -------------------------------- */
+
+body {
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.5;
+	color: #384047;
+	padding: 10px 0 80px;
+}
+div {
+	max-width: 610px;
+	margin: auto;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	margin-bottom: 14px;
+}
+a {
+	color: #4183c4;
+}
+
+/* Substring Matching Attribute Selectors ---- */
+
+/* Begins with Selector  */
+
+a[href^="http://"] {
+	color: #52bab3;
+	text-decoration: none;
+	/*  adds styles to the icons which feature an external link
+			which can be targeted based on the http:// selector */
+
+}
+
+/*  Ends with Selector */
+/*  Lets differentiate file types ect...*/
+/*  The Following substring selectors are very useful when you have a CMS
+		These are very hard to style and it is easier to target specific values*/
+a[href$=".pdf"] {
+	/* display pdf icon  */
+	background-image: url('../img/icn-pdf.svg');
+}
+
+a[href$=".jpg"] {
+	/* display jpg icon  */
+	background-image: url('../img/icn-picture.svg');
+}
+
+a[href$=".zip"] {
+	/* display zip icon  */
+	background-image: url('../img/icn-zip.svg');
+}
+
+a[href*="downloads"] {
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	padding-left: 25px;
+}
+
+img[src*="thumb"] {
+	margin: 4px;
+	border: solid 2px;
+	width: 180px;
+	height: 140px;
+}
+
+/* Begins with selector
+img[title^="product-"] {
+  border-color: lightblue;
+}
+
+Ends with selector
+a[href$=".html"] {
+  text-decoration: none;
+}
+contains selector
+img[src*="preview"]{
+width:100%;
+} */

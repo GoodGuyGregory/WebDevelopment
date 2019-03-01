@@ -1,0 +1,27 @@
+/* Structural Pseudo-classes------------------ */
+
+/*  targets 4th div inside of a parent*/
+
+div:nth-child(4) {
+  background: #52bab3;
+  color: white;
+}
+
+/*  nth-of-type specifies the type of child
+    element to be selected and styled.
+*/
+
+div:nth-of-type(even) {
+  background: #52bab3;
+  color: white;
+}
+
+/*  another alternative would be
+    the last of type Selectors
+    targets elements from the last position
+*/
+
+div:nth-last-of-type(1){
+  background: #52bab3;
+  color: white;
+}

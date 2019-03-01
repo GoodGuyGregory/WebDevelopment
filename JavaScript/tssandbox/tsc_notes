@@ -1,0 +1,16 @@
+/*Typescript Crash Course https://www.youtube.com/watch?v=rAy_3SIqT-E
+//Typescript Types
+String-   Any-    Tuple-
+Number-   Void-   Enum-
+Boolean-  Null-   Generics-
+-Typescript Compiler- Needs NODE.JS
+
+include a scr tag in your index files from the tsc comiler
+js will get compiled dont touch the js file similar to scss and css
+
+to enable watch mode type:
+`tsc <filename>.ts -w ` 
+crtl + c will stop the watcher
+
+Numbers: can be positive or negative decimals ect
+String: can be concatinated, function returns can also be strings 
