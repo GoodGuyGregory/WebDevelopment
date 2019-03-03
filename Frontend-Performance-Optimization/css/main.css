@@ -166,15 +166,15 @@ PAGE: CONTACT
 }
 
 .contact-info li.phone a {
-  background-image: url('../img/phone.png');
+  background-image: url('../assets/phone.svg');
 }
 
 .contact-info li.mail a {
-  background-image: url('../img/mail.png');
+  background-image: url('../assets/mail.svg');
 }
 
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+  background-image: url('../assets/twitter.svg');
 }
 
 
@@ -221,4 +221,3 @@ nav a.selected, nav a:hover {
 }
 
 @import url('custom-popup.css');
-
