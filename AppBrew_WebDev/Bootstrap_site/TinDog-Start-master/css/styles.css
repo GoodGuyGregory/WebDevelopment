@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 17%;
 }
 
 /* Navigation Bar */
@@ -63,12 +63,17 @@ h2 {
 .iphone_doggo {
   width: 60%;
   transform: rotate(15deg);
+  position: absolute;
+  right: 26%;
 }
 
 /*  Main Features */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
