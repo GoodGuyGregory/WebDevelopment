@@ -1,0 +1,17 @@
+/* Media Queries can be used for
+  Print
+  Screen Adjustments
+  Speech
+   */
+  /* CodePly is pretty great for responsiveness due to the
+    predetermined sizes that can be used as reference in design */
+h1 {
+  font-size: 30px;
+}
+
+@media screen (min-width: 900px) and (max-width: 1000px) {
+  h1 {
+    font-size: 60px;
+    color: green;
+  }
+}
