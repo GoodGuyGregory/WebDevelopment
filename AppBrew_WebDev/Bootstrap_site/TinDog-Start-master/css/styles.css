@@ -171,11 +171,14 @@ i:hover {
 }
 
 section button{
-
+  margin-top: 35px;
+  margin-left: 5%;
 }
 
 #footer{
   background-color: #fff;
+  text-align: center;
+  padding: 5%;
 }
 
 #footer p{
