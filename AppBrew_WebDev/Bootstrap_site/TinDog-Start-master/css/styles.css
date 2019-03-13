@@ -54,7 +54,6 @@ h2 {
 /* Buttons */
 
 .download-button {
-  margin: 5% 3% 5% 0;
   margin-left: 25%;
 }
 
@@ -150,6 +149,16 @@ i:hover {
   text-align: center;
 }
 
+#pricing h2 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.card-header h3,
+.card-body h2 {
+  font-weight: bolder;
+}
+
 .pricing-column {
   padding: 3% 2%;
 }
@@ -183,6 +192,11 @@ section button{
 
 #footer p{
   text-align: center;
+}
+
+.social-icon {
+  margin: 10px;
+  padding-bottom: 25px;
 }
 
 
