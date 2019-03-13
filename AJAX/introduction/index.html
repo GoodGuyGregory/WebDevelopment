@@ -7,12 +7,17 @@
   <title>AJAX with JavaScript</title>
   <script>
     //Step 1 Create the Ajax Request Object
-    var xhr = new XMLHttpRequest(); 
+    var xhr = new XMLHttpRequest();
     //Step 2 Create the callback function
     //Triggering the call back uses an event handler
     xhr.onreadystatechange = function() {
+
       if (xhr.readyState === 4){
-        document.getElementById('ajax').innerHTML = xhr.responseText;
+         if (xhr.status === 200) {
+          document.getElementById('ajax').innerHTML = xhr.responseText;
+        } else{
+          alert(xhr.status); 
+        }
       }
     };
     //step 3 open a Ajax request
@@ -23,7 +28,7 @@
        xhr.send();
       document.getElementById('load').style.display = "none";
     }
- 
+
   </script>
 </head>
 <body>
