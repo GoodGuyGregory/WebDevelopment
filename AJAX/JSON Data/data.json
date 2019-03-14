@@ -1,0 +1,18 @@
+/* Jason Objects */
+[
+  {
+  "name": "Aimee",
+  "inoffice": "false"
+
+},
+{
+"name": "Amit",
+"inoffice": "true"
+
+},
+{
+"name": "Ben",
+"inoffice": "true"
+
+}
+]
