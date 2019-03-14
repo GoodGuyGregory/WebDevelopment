@@ -1,13 +1,31 @@
 body {
   font-family: 'Montserrat';
+  text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
+/* Containers */
 .container-fluid {
   padding: 3% 15% 17%;
+}
+/* Title Section */
+
+#title .container-fluid{
+
+  padding-left: 3% 15% 7%;
+}
+
+/* General Section Design */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -61,7 +79,7 @@ h2 {
 
 .iphone_doggo {
   width: 60%;
-  transform: rotate(15deg);
+  transform: rotate(25deg);
   position: absolute;
   right: 26%;
 }
@@ -70,7 +88,6 @@ h2 {
 
 #features {
   padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -109,7 +126,7 @@ i:hover {
   padding: 7% 15%;
   text-align: center;
   background-color:  #ef8172;
-  color:#fff;s
+  position: relative;
 }
 
 #testimonials h2 {
@@ -132,7 +149,7 @@ i:hover {
 /* Press Section */
 
 #press {
-  background-color: #ef8172;
+  background-color: #ef8172; 
   text-align: center;
   padding-bottom: 3%;
 }
@@ -166,7 +183,6 @@ i:hover {
 /* Footer Section */
 
 #cta {
-  background-color: #ff4c68;
   color: #fff;
   padding: 7% 15%;
   text-align: center;
@@ -185,7 +201,6 @@ section button{
 }
 
 #footer{
-  background-color: #fff;
   text-align: center;
   padding: 5%;
 }
@@ -199,6 +214,8 @@ section button{
   padding-bottom: 25px;
 }
 
+
+/* Media Queries */
 
 @media (max-width: 1028px) {
   #title{
