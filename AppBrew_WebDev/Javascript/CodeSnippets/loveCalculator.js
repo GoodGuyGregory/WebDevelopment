@@ -14,8 +14,15 @@ alert("Your Love Score is : " + loveScore + "%");
 // > greater than, >= greater than equal to
 // < less than, <= less than equal to
 
+// Combining Comparators
+//  && AND, || OR, !
+
 if (loveScore > 70 ) {
-  alert("Your Love Score is : " + loveScore + "%" + "You look perfect together");
-} else {
+  alert("Your Love Score is : " + loveScore + "%" + "You love eachother like Kanye Loves Kanye");
+}
+if (loveScore > 30 && loveScore <= 70) {
   alert("Your Love Score is : " + loveScore + "%");
+}
+if(loveScore <= 30){
+  alert("Your Love Score is: " + loveScore + "%" + "You two go together like Oil and Water")
 }
