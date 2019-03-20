@@ -5,8 +5,8 @@ var count = 1;
 
 function fizzBuzz() {
 
-while(count <= 100){
-    count += 1;
+// while(count <= 100)
+for (var count = 1; count < 100 ; count++) {
     if (count % 3 == 0 && count % 5 == 0) {
       console.log("FizzBuzz");
     }
