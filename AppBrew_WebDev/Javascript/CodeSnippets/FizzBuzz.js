@@ -4,7 +4,8 @@ var output = [];
 var count = 1;
 
 function fizzBuzz() {
-
+// While loops are state based
+// While loops are for iterative states
 // while(count <= 100)
 for (var count = 1; count < 100 ; count++) {
     if (count % 3 == 0 && count % 5 == 0) {
