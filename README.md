@@ -34,3 +34,9 @@ https://gridbyexample.com/
 
 ## AJAX  
   [URL Encode and Decode Tool](https://www.url-encode-decode.com)
+  
+
+----------
+
+## Web Accessability Complicance  
+
