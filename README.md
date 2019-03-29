@@ -38,5 +38,9 @@ https://gridbyexample.com/
 
 ----------
 
-## Web Accessability Complicance  
+## [Web Accessability Complicance](https://www.w3.org/TR/WCAG20/)  
+  1.   
+  2. **Operable:** Being able to clearly use Applications and UI is functional for the user.  
+  3. **Understandable:** Make a website or Web application operate in predicatable ways. (comunicate errors etc.)
+  4. **Robust:** written HTML Correctly and Completely **Check Your Code!** 
 
