@@ -38,6 +38,8 @@ https://gridbyexample.com/
 
 ----------
 
+
+
 ## [Web Accessability Complicance](https://www.w3.org/TR/WCAG20/)  
   1. **Precievable** Being able to understand how the site will work.  
   2. **Operable:** Allowing user to navigate and operate your webapps or sites with only a keyboard.  
@@ -46,3 +48,4 @@ https://gridbyexample.com/
   
 ----------
  ### [How to Meet Compliance](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0)
+ ### [Easy Check List](https://www.w3.org/WAI/test-evaluate/preliminary/)
