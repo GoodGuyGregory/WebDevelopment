@@ -37,8 +37,7 @@ https://gridbyexample.com/
   
 
 ----------
-
-
+![Simply Accisbility](http://simplyaccessible.com/wordpress/wp-content/themes/sa-wp-2014/images/home-banner-ship.svg)
 
 ## [Web Accessability Complicance](https://www.w3.org/TR/WCAG20/)  
   1. **Precievable** Being able to understand how the site will work.  
