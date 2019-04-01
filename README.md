@@ -43,4 +43,6 @@ https://gridbyexample.com/
   2. **Operable:** Allowing user to navigate and operate your webapps or sites with only a keyboard.  
   3. **Understandable:** Make a website or Web application operate in predicatable ways. (comunicate errors etc.)
   4. **Robust:** written HTML Correctly and Completely **Check Your Code!** 
-
+  
+----------
+ ### [How to Meet Compliance](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0)
