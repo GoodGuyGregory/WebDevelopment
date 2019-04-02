@@ -63,7 +63,7 @@ https://gridbyexample.com/
   ch
  
  ### Further Reading:  
- #### [CSS trick's Take on Lengths](https://css-tricks.com/the-lengths-of-css/)
+ #### [CSS Trick's Take on Lengths](https://css-tricks.com/the-lengths-of-css/)
  #### [Looking at Length Units in CSS](https://www.sitepoint.com/look-at-length-units-in-css/)  
  
  
