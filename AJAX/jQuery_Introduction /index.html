@@ -29,6 +29,9 @@
   <script>
     function sendAJAX() {
       $('#ajax').load('sidebar.html');
+      $.get('sidebar.html', function(response) {
+        $('#ajax').html(response);
+      });
       $('#load').hide();
     }
   </script>

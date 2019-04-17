@@ -5,6 +5,8 @@
 jQuery GET request:  
 --------------------  
 
+written ```JavaScript $.get()```
+
 Typical GET request:
 
 ```JavaScript
