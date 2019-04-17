@@ -35,11 +35,13 @@ var data = {
   lastName: "Thomas"  
 };  
 
-
 $.get('/employees.php', {
   firstName: "Dave",
   lastName: "Thomas"
 }, function (response){
   //Do something with the Data
 });  
-```
+```  
+
+jQuery GETJSON request:  
+------------------------  
