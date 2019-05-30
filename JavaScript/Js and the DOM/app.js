@@ -20,14 +20,14 @@ toggleList.addEventListener('click', () => {
 });
 
 descriptionbutton.addEventListener('click', () => {
-  descriptionp.innerHTEML = descriptioninput.value + ':';
+  descriptionp.innerHTML = descriptioninput.value + ':';
   descriptionp.value = '';
 });
 
 //appendChild method
 // Node.addChild(<ChildElement)
 addItemButton.addEventListener('click', () => {
-  let ul = document.getElementByTageName('ul')[0];
+  let ul = document.getElementsByTagName('ul')[0];
   let li = document.createElement('li');
   li.textContent = addItemInput.value;
   //appends child li
@@ -37,7 +37,7 @@ addItemButton.addEventListener('click', () => {
 
 // Remove Child Selector
 removeItemButton.addEventListener('click', () => {
-  let ul = document.getElementByTageName('ul')[0];
+  let ul = document.getElementsByTagName('ul')[0];
   let li = document.querySelector('li:last-child');
   li.removeChild('li');
 });
