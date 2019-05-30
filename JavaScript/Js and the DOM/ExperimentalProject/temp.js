@@ -17,4 +17,4 @@ exec((something) => {
 */
 
 // This is typically done for delaying the execution of a function for example
-// the setTimeOut function
+// the setTimeOut function https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
