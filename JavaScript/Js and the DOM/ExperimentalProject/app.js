@@ -9,8 +9,35 @@ const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('input.addItemButton');
 const removeItemButton = document.querySelector('input.removeItemButton');
 const listItems = document.getElementsByTagName('li');
+const lis = listUl.children;
+const firstListItem = listUl.firstElementChild;
+const lastListItem = listUl.lastElementChild;
 
-event.target.tagName
+// Background color changes on first and last element children
+firstListItem.style.backgroundColor = 'lightskyblue';
+lastListItem.style.backgroundColor = 'lightsteelblue';
+
+function attachListItemsButtons(li) {
+  let up = document.createElement('button');
+  up.className = 'up';
+  up.testContent = 'up';
+  li.appendChild(up);
+
+  let down = document.createElement('button');
+  down.className = 'down';
+  down.testContent = 'down';
+  li.appendChild(down);
+
+  let remove = document.createElement('button');
+  remove.className = 'remove';
+  remove.testContent = 'remove';
+  li.appendChild(remove);
+
+}//attachListItemsButtons
+
+for (var i = 0; i  lis.length; i += 1) {
+  attachListItemsButtons(li[i]);
+
 
 // ListDiv is the highest Ancestor Element on this Page
   // adds an Event Listener on the listitems on the page for mouseover event
@@ -93,6 +120,7 @@ addItemButton.addEventListener('click', () => {
   let li = document.createElement('li');
   li.textContent = addItemInput.value;
   //appends child li
+  attachListItemsButtons(li)
   ul.appendChild(li);
   addItemInput.value = '';
 });
