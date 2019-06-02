@@ -27,6 +27,32 @@ event.target.tagName
           // Removes that child based on the specific parent node
           ul.removeChild(li);
       }//remove if
+      if (event.target.className == 'up') {
+          // sets the target to a variable
+          let li = event.target.parentNode;
+          // moves up a tag element and gets the parent name/attributes for
+          // Targeting that specific node on the DOM
+          let prevLi = li.previousElementSibling;
+          let ul = li.parentNode;
+          // only runs the code if there is a previous element on the parent ul
+          if (prevLi) {
+            // Inserts the new li element above the previous
+            ul.insertBefore(li, prevLi);
+          }//if
+      }//remove if
+      if (event.target.className == 'down') {
+          // sets the target to a variable
+          let li = event.target.parentNode;
+          // moves up a tag element and gets the parent name/attributes for
+          // Targeting that specific node on the DOM
+          let nextLi = li.nextElementSibling;
+          let ul = li.parentNode;
+          // only runs the code if there is a previous element on the parent ul
+          if (nextLi) {
+            // Inserts the new li element above the previous
+            ul.insertBefore(nextLi, li);
+          }//if
+      }//remove if
     }
   });
   // adds an Event Listener for when the mouse leaves

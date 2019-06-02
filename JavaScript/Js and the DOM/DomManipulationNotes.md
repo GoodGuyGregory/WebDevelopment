@@ -68,3 +68,20 @@ the problem here is that it would be easier to target the specific parent by usi
 **insertBefore**  
 
 (insertBefore)[https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore]
+
+```JavaScript
+
+  var insertedNode = parentNode.insertBefore(newNode,
+  referenceNode);
+
+```
+
+**nextElementSibling**  
+
+(nextElementSibling)[https://developer.mozilla.org/en-US/docs/Web/API/NonDocumentTypeChildNode/nextElementSibling]  
+
+```JavaScript  
+
+var nextNode = elementNodeReference.nextElementSibling;
+
+```
