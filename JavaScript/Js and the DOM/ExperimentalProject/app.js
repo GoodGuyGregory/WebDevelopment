@@ -17,13 +17,16 @@ event.target.tagName
   listDiv.addEventListener('click', (event) => {
 // tageName returns an element's tag in all caps
     if (event.target.tagName === 'BUTTON') {
-      // sets the target to a variable
-      let li = event.target.parentNode;
-      // moves up a tag element and gets the parent name/attributes for
-      // Targeting that specific node on the DOM
-      let ul = li.parentNode;
-      // Removes that child based on the specific parent node
-      ul.removeChild(li);
+      // sets remove clause
+      if (event.target.className == 'remove') {
+          // sets the target to a variable
+          let li = event.target.parentNode;
+          // moves up a tag element and gets the parent name/attributes for
+          // Targeting that specific node on the DOM
+          let ul = li.parentNode;
+          // Removes that child based on the specific parent node
+          ul.removeChild(li);
+      }//remove if
     }
   });
   // adds an Event Listener for when the mouse leaves

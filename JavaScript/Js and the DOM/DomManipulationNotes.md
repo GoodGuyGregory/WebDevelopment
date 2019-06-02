@@ -53,3 +53,18 @@ the problem here is that it would be easier to target the specific parent by usi
   parent.removeChild(paragraph);
 
 ```
+
+**previousElementSibiling**  
+
+(previousElementSibiling)[MDN page for previousElementSibling] has the `NonDocumentTypeChildNode.previousElementSibling`  
+
+```JavaScript  
+//
+  let li = listUl.querySelectorAll('li')[3];
+//
+  li.previousSibiling
+```
+
+**insertBefore**  
+
+(insertBefore)[https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore]
