@@ -79,6 +79,10 @@ https://gridbyexample.com/
  **Joins**
  [Join Basics](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
  
+ **phpMyAdmin**
+ 
+ Encryption for Wordpress SQL Passwords is *md5*
+ 
  ### Further Reading:  
  #### [CSS Trick's Take on Lengths](https://css-tricks.com/the-lengths-of-css/)
  #### [Looking at Length Units in CSS](https://www.sitepoint.com/look-at-length-units-in-css/)  
