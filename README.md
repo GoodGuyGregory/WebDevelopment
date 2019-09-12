@@ -87,6 +87,6 @@ https://gridbyexample.com/
  ## PDF Magic
  
  **[Converting Docs to Forms](https://helpx.adobe.com/acrobat/how-to/convert-word-excel-paper-pdf-forms.html?set=acrobat--fundamentals--pdf-forms)**
- 
+ **[Converting MS Files to Adobe Formats](https://documentcloud.adobe.com/acrobat/us/en/online/word-to-pdf?to=wuD648jHMKLCTTKz)**
  
  
