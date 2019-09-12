@@ -84,5 +84,9 @@ https://gridbyexample.com/
  #### [Looking at Length Units in CSS](https://www.sitepoint.com/look-at-length-units-in-css/)  
  
  
+ ## PDF Magic
+ 
+ **[Converting Docs to Forms](https://helpx.adobe.com/acrobat/how-to/convert-word-excel-paper-pdf-forms.html?set=acrobat--fundamentals--pdf-forms)**
+ 
  
  
