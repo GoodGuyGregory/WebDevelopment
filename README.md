@@ -73,11 +73,24 @@ https://gridbyexample.com/
   Vh
   Vw
   ch
+
+ ## SQL 
+ 
+ **Joins**
+ [Join Basics](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+ 
+ **phpMyAdmin**
+ 
+ Encryption for Wordpress SQL Passwords is *md5*
  
  ### Further Reading:  
  #### [CSS Trick's Take on Lengths](https://css-tricks.com/the-lengths-of-css/)
  #### [Looking at Length Units in CSS](https://www.sitepoint.com/look-at-length-units-in-css/)  
  
  
+ ## PDF Magic
+ 
+ **[Converting Docs to Forms](https://helpx.adobe.com/acrobat/how-to/convert-word-excel-paper-pdf-forms.html?set=acrobat--fundamentals--pdf-forms)**
+ **[Converting MS Files to Adobe Formats](https://documentcloud.adobe.com/acrobat/us/en/online/word-to-pdf?to=wuD648jHMKLCTTKz)**
  
  
