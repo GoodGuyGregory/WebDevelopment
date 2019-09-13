@@ -3,6 +3,7 @@ this repo will hold all of my web development work
 
 [Github Pages](https://pages.github.com/)
 
+[Delicious Brains Blog](https://deliciousbrains.com/blog/)
 
 ------------------
 
