@@ -36,7 +36,16 @@ for (var i = 0; i < 5; i++) {
 
 // Much easier way of coding the same damn thing with jQuery is below.....
 $("button").click(function () {
-    $("h1").css("color", "blue")
+    // $("h1").css("color", "blue")
+    // Using Animations to Hide the H1 now
+    // there are many animation methods that can be used on items in your html
+    // .show(), .hide(), .fadeout, fadeToggle(), .slideUp()
+
+    // $("h1").fadeOut()
+
+    // There is also the option of adding your own custom animations,
+    // you can only add css values which require a numeric value
+    $("h1").slideUp().slideDown().animate({ opacity: 0.5 });
 });
 
 // simple code that will console log the events of the keyboard into the console
@@ -61,3 +70,4 @@ $(document).keypress(function (event) {
 $("h1").on("mouseover", function () {
     $("h1").css("color", "green")
 })
+
