@@ -1,4 +1,4 @@
-// hecks if the Document is ready to utilize Jquery on the project
+// checks if the Document is ready to utilize Jquery on the project
 // $(document).ready(function () {
 //     // using jQuery to Select H1s
 //     $("h1").css("color", "blue");
@@ -39,7 +39,7 @@ $("button").click(function () {
     // $("h1").css("color", "blue")
     // Using Animations to Hide the H1 now
     // there are many animation methods that can be used on items in your html
-    // .show(), .hide(), .fadeout, fadeToggle(), .slideUp()
+    // .show(), .hide(), .fadeOut(), fadeToggle(), .slideUp()
 
     // $("h1").fadeOut()
 
