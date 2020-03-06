@@ -147,11 +147,6 @@ to that location.
 ![Samurai Jack](https://cdn.shopify.com/s/files/1/0558/2081/products/Samurai_TomWhalen_Regular_1024x1024.jpg?v=1500485901)
 
 ***Example***  
-Scope the Gorillaz image below! You know I'm obsessed  
-
-![Gorillaz](https://consequenceofsound.files.wordpress.com/2017/04/screen-shot-2017-04-27-at-3-13-54-pm.png)
-
-***Example***  
 This image can be clicked and leads you to the Ableton site.  
 
 [![Studio](https://cdn-resources.ableton.com/80bA26cPQ1hEJDFjpUKntxfqdmG3ZykO/static/images/og-images/live.96bd28d4f91d.jpg "Can't I dream?")](https://ableton.com)
