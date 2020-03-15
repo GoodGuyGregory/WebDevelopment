@@ -28,6 +28,7 @@
 .content {
 	/* transform: skewX(15deg); */
 }
+
 /* -- Row 1 --------- */
 img {
 	/*0-360 degrees 2D*/
@@ -35,7 +36,7 @@ img {
 	/* transform: rotate(25deg); */
 	transition: transform .5s;
 /*  origin is 50 50 by default
- 		can also be coded as "top left " ect*/
+ 	can also be coded as "top left " ect*/
 	/* transform-origin:  bottom right; */
 }
 
